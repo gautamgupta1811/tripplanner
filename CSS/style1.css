@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=B612+Mono|Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+} 
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0.75rem 0;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+
+}
+.text-center{
+    text-align: center;
+}
+.m-haeding{
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+.text-primary{
+    color: #93cb52;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333
+}
+.bg-dark{
+    background: #333;
+    color: #f4f4f4;
+}
+.bg-primary{
+    background: #93cb52;
+    color: #fff;
+}
+.l-heading{
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+
+}
+.btn:hover{
+    background: #7ab436;
+    
+
+}
+.btn-dark{
+    background: #333;
+    color: #fff;
+
+}
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+.p-1{ padding: 1.5rem;}
+.p-2{ padding:2rem;}
+.p-3{ padding: 3rem;}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.list{
+list-style: none;
+margin: 0.5rem 0;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+h1 .ho{
+     color: #333;
+}
+
+#navbar{
+    background: #333;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+#navbar ul li a:hover{
+    background: #93cb52;
+    border-radius: 5px;
+}
+#showcase{
+    background: url(../weeather.jpg)  no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+
+}
+.showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* align-items: center;
+    justify-content: center; */
+    height: 100%;
+    padding: 2rem 2rem;
+    background: rgba(0, 0, 0, 0.2);
+    /* position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+}
+#what{
+    background: url(../hotel1\ \(2\).jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    opacity: 0.8;
+    /* margin-left: 10px; */
+    padding-left: 30px;
+    /* position: fixed; */
+}
+#heading{
+    padding-top: 20px;
+    line-height: 2rem;
+    font: 4rem;
+}
+
+.items{
+    display: flex;
+    padding: 1rem;
+}
+.item{
+    flex: 1;
+    text-align: center;
+     padding: 1rem;
+}
+.item i{
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+#who div{
+    flex: 1;
+}
+#who{
+    background: url(../sight.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+
+}
+.map {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-content: center;
+text-align: center;
+height: 100%;
+background: url(../travel4.jpg) no-repeat;
+height: 100vh;
+}
+.things{
+    display: flex;
+
+}
+#clients .things img{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+#contact{
+    display: flex;
+
+}
+#contact .map, #contact .contact-form{
+    flex: 1;
+}
+.group{
+    margin: 0.75rem;
+}
+label{
+    display: block;
+}
+input,textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+#main-footer{
+    padding: 1px;
+
+}
+#customize input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#customize label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

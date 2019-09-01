@@ -1,0 +1,58 @@
+.items{
+    display: block;
+    padding: 1rem;
+}
+
+
+
+.item{
+    display: flex; 
+    text-align: left;
+}
+.item i{
+    margin-right: 1.5rem;
+    align-self: center;
+
+}
+#navbar ul{
+    text-align: center;
+}
+
+@media(max-width: 500px) {
+    #navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+    #navbar .logo{
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    #navbar ul{
+        padding: 0.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    #who{
+        display: block;
+    }
+    #who .who-img{
+        display: none;
+    }
+    #clients .things img{
+        width: 80%;
+    }
+    #clients .things div:last-child{
+        display: none;
+    }
+    #contact{
+        display: block;
+    }
+    #contact .map{
+        height: 200px;
+        border-top: #333 dotted 1px;
+    }
+    
+}
